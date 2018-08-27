@@ -1,74 +1,46 @@
-.enteries1{
-    padding: 20px;
-    margin-left: 60px;
-    margin-right: 50px;
-    height: 800px;
-    background-image: url("images/z.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    word-spacing: 5px;
-    border: 1px solid rgb(6, 221, 34);
-    font-family: 'Times New Roman', Times, serif;
-    color: bisque;
+.body{
+    background-color: rgb(141, 236, 147);
+    background-size: cover;
+    height: 80%;
+    width: 80%;
+    border-radius: 7px;
+    border: 80%;
+    border-color:grey;
+    margin: 20PX;
+
 }
 header{
-    font-family: 'Times New Roman', Times, serif;
-    border: 2px white solid;
-    padding: 20px;
-    border-radius: 20px;
-
-}
-#enteries2{
-    font-size: 25px;
-    font-style: italic;
-    color: beige;
-
-}
-.row1{
-    height: 30px;
-    border: 6px;
-    font-size: 20px;
-}
-.row2{
-    height: 30px;
-    border: 6px; 
-    font-size: 20px; 
-}
-.col1{
-    width: 200px;
-    border: 6px;
-    font-size: 20px;
-}
-.col2{
-    width: 50px;
-    border:6px;
-    font-size: 20px;
-}
-.col3{
-    width: 50px;
-    border:6px;
-    font-size: 20px;
- 
-}
-li{
-    display: inline-block;
-    border-radius: 12px;
-    font-size: 30px;
+    height: 100px;
+    width: 1000px;
     color: black;
-    background-color: beige;
+    
 }
-.enteries3{
-    float: right;
+.card1{
+height: 500px;
+width: 300px;
+background-color: rgb(64, 143, 20);
+float:right;
+margin-top: -30px;
+border-radius: 16px;
 }
-/* fieldset{
-    font-size: 18px;
-    height:120px;
-} */
-.enteries4{
-    font-size: 20px;
-    width: 800px;
+#image{
+    background-image: url(images/profile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin:40px;
+    border-radius: 16px;
+    width: 200px;
+    height: 400px;
+
 }
-#enteries5{
-    font-size: 30px;
-    color: blue;
+.card2{
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 400px; 
+}
+.card3{
+    margin-top: 100px;
+    width: 400px;
+    height: 300PX;
+
 }

@@ -7,12 +7,12 @@
 <body>
         <header>
             <div class="home1">
-                <p> Today I write my feelings... One day,they will be memories...I will smile... May be cry by looking at them
+                <p><h1>MyDiary</h1>
                 </p>
             </div>
             <br />
             <ul>
-                <li><input type="button" value="HOME" onclick="location.href='homepage.html'"</li>
+                <li>HOME</li>
                 <a href="enteries.html"><li>Enteries</li></a>
                 <li>Profile</li>
                 <div class="home3">
@@ -27,30 +27,46 @@
         <input type="submit" value="Search" />
         <fieldset>
             <center>
-                   <h2><b>DIARIES</b></h2>
-                </legend>
-                <p>
-                    <label for="DIARIES">Choose option</label>
-                    <select name="Option" id="Choose-option">
-                        <option value="choose">Click to choose</option>
-                        <option value="edit">Edit Enteries</option>
-                        <option value="view">View Enteries</option>
-                    </select>           
-                </p>
-            </center>    
-    
-            <p>
-                    DIARIES:
-                </label>
-                <br />
-                <textarea rows="10" cols="100" id="comments">
-                </textarea>
-            </p>
-            
-            <P>    
-                <a href="enteries.html"><input type="submit" value="keep diary" /></a>    
-            </p>
-                    
-    
-</body>
+                <h2><b>DIARIES</b></h2>
+                <!-- <div class="enteries4"> -->
+                <table>
+                    <tr>                           
+                        <th class="col1" type="date">Date</th>
+                        <th class ="col2">Diaries</th>
+                        <th class="col3">Option</th>      
+                    <tr>
+                        <th class="row1"> 28<sup>th</sup> July 2018</th>
+                        <td class="col4">My birthday</td>
+                        <td class="col5">
+                            <select name="Option" id="Select">
+                                <a href="enteries.html"> <option value="text">view</option></a>
+                                <a href="enteries.html"></a><option value="text">Edit</option></a>
+                                <option value="text">Delete</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="row2"> 29 <sup>th</sup>July 2018</th>
+                        <td class="col6"> Lunch date</td>
+                        <td class="col7">
+                            <select name="Option" id="Select">
+                                <option value="text">view</option>
+                                <option value="text">Edit</option>
+                                <option value="text">Delete</option>
+                            </select>        
+                        </td>
+                    </tr>           
+                </table>
+
+            </center>
+
+        </fieldset>
+                <footer>
+                    <div id="enteries5">
+                        <center>
+                            <p>All rights reserved</p>
+                        </center>
+                    </div>
+                </footer>
+    </body>
 </html>
