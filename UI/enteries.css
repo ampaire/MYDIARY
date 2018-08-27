@@ -24,6 +24,32 @@ header{
     color: beige;
 
 }
+.row1{
+    height: 30px;
+    border: 6px;
+    font-size: 20px;
+}
+.row2{
+    height: 30px;
+    border: 6px; 
+    font-size: 20px; 
+}
+.col1{
+    width: 200px;
+    border: 6px;
+    font-size: 20px;
+}
+.col2{
+    width: 50px;
+    border:6px;
+    font-size: 20px;
+}
+.col3{
+    width: 50px;
+    border:6px;
+    font-size: 20px;
+ 
+}
 li{
     display: inline-block;
     border-radius: 12px;
@@ -34,13 +60,13 @@ li{
 .enteries3{
     float: right;
 }
-fieldset{
+/* fieldset{
     font-size: 18px;
-    width: 800px;
     height:120px;
-}
+} */
 .enteries4{
     font-size: 20px;
+    width: 800px;
 }
 #enteries5{
     font-size: 30px;
