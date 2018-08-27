@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mydiary</title>
+    <!--link rel element helps to embed css into html-->
+    <link rel= "stylesheet" type= "text/css" href="./styles2.css"/>
+</head>
+
+<body>
+        <!-- Div element is used to specify sections while working with css div id 
+        is for a class under the main class-->
+    
+        <header>
+            <div class = "logo">
+                <h1 class="mydiary"><b>MyDiary</b></h1>
+            </div>
+        </header>
+        <div class="flex-container">
+            <div class= "vertical-align">
+       
+                <div class="image"></div>
+                                
+        
+                <div class="quote">
+                <p><i><q>... so this is for you. <br />This is for you who sings, writes, dances, acts, studies, runs and loves<br /> 
+                    ...and this is for doing it even if no one will ever know<br />...because the beauty is in the act of doing it.<br />
+                    Not what it can lead to.<br />This is for the times you lose myself while writing, singing, playing<br />and no one is around <br />and they will never know...<br />but I will forever remember....
+                </q></i>
+                </p>
+            </div>
+        </div>
+            <div class="login" style="width:34%">
+                <fieldset>
+                    <!-- This legend element groups all the elements into one commongroup -->
+                    <legend> Log in details</legend>
+                    <label>Email:<br />
+                    <input type="text" name="email" placeholder="example@email.com" required="required" /></label><br />
+                    <label>Password:<br />
+                    <input type="password" name="password" placeholder="password" required="required" /></label><br />
+                    <p> <input type="button" value="login" onclick="location.href='homepage.html'"/>
+                    </p>
+                    <p><i> Don't have an account?<br /> Create one here </i></p>
+                    <div class="signup">
+                        <a href="signup.html">SIGN UP</a>
+                    </div>
+                </fieldset>
+            </div>
+
+        
+
+    </body>
+</html>

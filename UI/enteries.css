@@ -1,0 +1,48 @@
+.enteries1{
+    padding: 20px;
+    margin-left: 60px;
+    margin-right: 50px;
+    height: 800px;
+    background-image: url("images/z.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    word-spacing: 5px;
+    border: 1px solid rgb(6, 221, 34);
+    font-family: 'Times New Roman', Times, serif;
+    color: bisque;
+}
+header{
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px white solid;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+#enteries2{
+    font-size: 25px;
+    font-style: italic;
+    color: beige;
+
+}
+li{
+    display: inline-block;
+    border-radius: 12px;
+    font-size: 30px;
+    color: black;
+    background-color: beige;
+}
+.enteries3{
+    float: right;
+}
+fieldset{
+    font-size: 18px;
+    width: 800px;
+    height:120px;
+}
+.enteries4{
+    font-size: 20px;
+}
+#enteries5{
+    font-size: 30px;
+    color: blue;
+}

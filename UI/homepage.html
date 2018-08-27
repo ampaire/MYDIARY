@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Homepage</title>
+    <link rel="stylesheet" type="text/css" href="home.css">
+</head>
+<body>
+        <header>
+            <div class="home1">
+                <p> Today I write my feelings... One day,they will be memories...I will smile... May be cry by looking at them
+                </p>
+            </div>
+            <br />
+            <ul>
+                <li><input type="button" value="HOME" onclick="location.href='homepage.html'"</li>
+                <li>Enteries</li>
+                <li>Profile</li>
+                <div class="home3">
+                    <li> <a href= "index2.html"> Sign Out </a></li>
+                </div>
+
+        </ul>
+        </header>
+        <p>Search:</p>
+	    <input type="search" name="search"
+		placeholder="Enter keyword" />
+        <input type="submit" value="Search" />
+        <fieldset>
+            <center>
+                   <h2><b>DIARIES</b></h2>
+                </legend>
+                <p>
+                    <label for="DIARIES">Choose option</label>
+                    <select name="Option" id="Choose-option">
+                        <option value="choose">Click to choose</option>
+                        <option value="edit">Edit Enteries</option>
+                        <option value="view">View Enteries</option>
+                    </select>           
+                </p>
+            </center>    
+    
+            <p>
+                    DIARIES:
+                </label>
+                <br />
+                <textarea rows="10" cols="100" id="comments">
+                </textarea>
+            </p>
+            <P>
+                <label>
+                <input type="checkbox" name="Keep" checked="checked" />
+                Send notifications 
+                </label>
+            </P>
+            <P>    
+                <input type="submit" value="keep diary" />    
+            </p>
+                    
+    
+</body>
+</html>
