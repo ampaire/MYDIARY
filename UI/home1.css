@@ -1,0 +1,90 @@
+body{
+    background-color: yellow;
+    font-family:'Times New Roman', Times, serif;
+    color: #181818;
+    margin: auto;
+    width: 80%;
+    background-image: url(images/z.jpg);
+    border: 3px solid black;
+    font-size: 20px;
+    border-radius: 5%;
+    padding: 10px;
+    height: 1020px;
+    box-sizing:border-box;
+}
+r-button{
+    display: inline-block;
+    height: 25px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: normal;
+    background-color: rgba(179, 184, 190, 0.4);
+    border-radius: 10%;
+}
+
+#home1{
+    display: inline-block;
+    padding: 3px;
+    height: 50px;   
+}
+
+ul{
+    margin-top:60px; 
+    display: inline-block;
+    width: 80%;
+    height: 40px;
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+    width: 150px;
+    border-radius: 8px;
+    /* text-align: left; */
+}
+
+.story{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(222, 222, 236, 0.6);
+    border-radius: 16px;
+    /* align-items: flex-start; */
+}
+
+.story > div{
+    width: 640px;
+    margin: 5px;
+}
+
+#section{
+    vertical-align: top;
+    text-align: justify;
+    
+}
+.image2{
+    width: 100px;
+    background-size: contain;
+    border-radius: 5%;
+}
+
+#About{
+    font-style: italic;
+    color: blue;
+    font-size: 25px;
+}
+.aside{
+width: 300px;
+border-width: 2px solid;
+border-color: black;
+border-radius: 8px;
+background-color:rgba(225, 231, 231, 0.6);
+float: right;
+height: 250px;
+}
