@@ -1,31 +1,40 @@
 body{
-    background-color: yellow;
+    /* background-color: yellow; */
     font-family:'Times New Roman', Times, serif;
-    color: #181818;
-    margin: auto;
+    color:black;
+    margin-right: 10px;
+    margin-left: 150px;
     width: 80%;
     background-image: url(images/z.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 3px solid black;
     font-size: 20px;
-    border-radius: 5%;
-    padding: 10px;
-    height: 1020px;
+    border-radius: 1%;
+    height: 1200px;
     box-sizing:border-box;
+}
+a{
+   text-decoration: none; 
+}
+a:hover{
+    color: blue;
 }
 r-button{
     display: inline-block;
     height: 25px;
     position: absolute;
-    color: white;
-    text-decoration: none;
+    color: red;
+    text-style: none;
 }
 
 header{
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
+    font-style: italic;
     font-weight: normal;
-    background-color: rgba(179, 184, 190, 0.4);
-    border-radius: 10%;
+    background-color: rgba(10, 153, 163, 0.6);
+    border-radius: 2%;
 }
 
 #home1{
@@ -44,16 +53,16 @@ ul{
 li{
     display: inline-block;
     text-decoration: none;
-    color: blue;
+    color: black;
     width: 150px;
-    border-radius: 8px;
+    border-radius:2px;
     /* text-align: left; */
 }
 
 .story{
     display: flex;
     flex-direction: row;
-    background-color: rgba(222, 222, 236, 0.6);
+    background-color: rgba(10, 153, 163, 0.6);
     border-radius: 16px;
     /* align-items: flex-start; */
 }
@@ -76,7 +85,7 @@ li{
 
 #About{
     font-style: italic;
-    color: blue;
+    color: black;
     font-size: 25px;
 }
 .aside{
@@ -84,7 +93,11 @@ width: 300px;
 border-width: 2px solid;
 border-color: black;
 border-radius: 8px;
-background-color:rgba(225, 231, 231, 0.6);
+background-color:rgba(10, 153, 163, 0.6);
 float: right;
 height: 250px;
+}
+footer{
+    color: red;
+    font-size: 28px;
 }

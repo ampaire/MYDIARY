@@ -1,28 +1,59 @@
 .signup{
-   margin: 10px;
+   margin: 1px;
    padding: 2px;
-   height: 700px;
+   width: 1500px;
    background-image: url("images/z.jpg");
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: contain;
+   height: 1200px;
    font-family: 'Times New Roman', Times, serif;
 }
 header{
-    color: blue;
-    text-align: center;
+    color: black;
+    text-align: left;
+    font-style: italic;
+    font-size: 25px;
+    background-color: rgba(10, 153, 163, 0.6);
+    width: 86%;
+    border-radius: 5%;
+    height: 120px;
     font-family: 'Times New Roman', Times, serif;
 
 }
-
+#image{
+    background-image: url(images/image.jpeg);
+    background-size: contain;
+    color: white;
+    font-size: 28px;
+    
+}
 .signup1{
     text-align: center;
-    background-color: rgba(24, 32, 109, 0.6);
-    width: 500px;
-    margin-left: 400px;
-    color: white;
+    background-color: rgba(10, 153, 163, 0.8);
+    width: 80%;
+    margin:1px;
+    margin-top: none;
+    color: black;
     border-radius: 16px;
-
+    height:700px;
+    margin-left: 80px;
 }
 .signup{
     float: center;
+}
+#wrapper{
+    display: flex;
+    flex-direction: row;
+    height:700px;
+}
+#image{
+    width: 600px;
+    background-image: url(images/signup.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+footer{
+    color: white;
+    font-size: 20px;
 }

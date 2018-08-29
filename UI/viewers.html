@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Homepage</title>
-    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" type="text/css" href="viewers.css">
 </head>
 <body>
         <header>
@@ -10,57 +10,98 @@
                 <p><h1>MyDiary</h1>
                 </p>
             </div>
-            <br />
-            <ul>
-                <li>HOME</li>
-                <a href="enteries.html"><li>Enteries</li></a>
-                <li>Profile</li>
-                <div class="home3">
-                    <li> <a href= "index2.html"> Sign Out </a></li>
-                </div>
-
-        </ul>
         </header>
-        <p>Search:</p>
-	    <input type="search" name="search"
-		placeholder="Enter keyword" />
-        <input type="submit" value="Search" />
-        <fieldset>
-            <center>
-                <h2><b>DIARIES</b></h2>
-                <!-- <div class="enteries4"> -->
-                <table>
-                    <tr>                           
-                        <th class="col1" type="date">Date</th>
-                        <th class ="col2">Diaries</th>
-                        <th class="col3">Option</th>      
-                    <tr>
-                        <th class="row1"> 28<sup>th</sup> July 2018</th>
-                        <td class="col4">My birthday</td>
-                        <td class="col5">
-                            <select name="Option" id="Select">
-                                <a href="enteries.html"> <option value="text">view</option></a>
-                                <a href="enteries.html"></a><option value="text">Edit</option></a>
-                                <option value="text">Delete</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th class="row2"> 29 <sup>th</sup>July 2018</th>
-                        <td class="col6"> Lunch date</td>
-                        <td class="col7">
-                            <select name="Option" id="Select">
-                                <option value="text">view</option>
-                                <option value="text">Edit</option>
-                                <option value="text">Delete</option>
-                            </select>        
-                        </td>
-                    </tr>           
-                </table>
+            <div class="wrapper">
+                <br />
+                <div id="wrapper1">
+                    <p>Search:</p>
+	                    <input type="search" name="search"placeholder="Enter keyword" />
+                        <input type="submit" value="Search" />
+                    <ul>
+                        <a href="enteries.html"><li>ADD AN ENTRY</li></a>
+                        <li>No. Entries 08</li>
+                        <li>PROFILE</li>
+                        <li>MANAGE ACCOUNT</li>
+                        <li>NOTIFICATIONS</li>
+                        <li>FAQ</li>
+                        <div class="home3">
+                            <li> <a href= "home.html"> SIGN OUT </a></li>
+                        </div>
 
-            </center>
-
-        </fieldset>
+                    </ul>
+                </div>
+                <div id="wrapper2">
+                </div>
+                <fieldset>
+                    <center>
+                        <h2><b>DIARIES</b></h2>
+                        <!-- <div class="enteries4"> -->
+                    </center>
+                    <table id="diaries">
+                            <tr>
+                              <th>NO.</th>
+                              <th>DATE</th>
+                              <th>ENTRY</th>
+                              <th>OPTION</th>
+                            </tr>
+                            <tr>
+                              <td>01</td>
+                              <td>28/07/2018</td>
+                              <td><a href="enteries.html" value ="text">My birthday</a></td>
+                              <td><a href="enteries.html"><input type="button" value="delete"></a></td>
+                            </tr>
+                            <tr>
+                              <td>02</td>
+                              <td>29/07/2018</td>
+                              <td><a href="enteries.html" value ="text">My first Lunch date</a></td>
+                              <td><a href="enteries.html"><input type="button" value="delete"></a></td>
+                            </tr>
+                            <tr>
+                              <td>03</td>
+                              <td>30/07/2018</td>
+                              <td><a href="enteries.html" value ="text">Blues</a></td>
+                              <td><a href="enteries.html"><input type="button" value="delete"></a></td>
+                            </tr>
+                            <tr>
+                              <td>04</td>
+                              <td>31/07/2018</td>
+                              <td><a href="enteries.html" value ="text">Keep this dear</a></td>
+                              <td><a href="enteries.html"><input type="button" value="delete"></a></td>
+                            </tr>
+                            <tr>
+                              <td>04</td>
+                              <td>01/08/2018</td>
+                              <td><a href="enteries.html" value ="text">Today was hell!!!</a></td>
+                              <td><a href="enteries.html"><input type="button" value="delete"></a></td>
+                            </tr>
+                            <tr>
+                              <td>05</td>
+                              <td>02/08/2018</td>
+                              <td><a href="enteries.html" value ="text">My heart is bleeding</a></td>
+                              <td><a href="enteries.html"><input type="button" value="delete"></a></td>
+                            </tr>                        
+                            <tr>
+                              <td>06</td>
+                              <td>03/08/2018</td>
+                              <td><a href="enteries.html" value ="text">Mary's visit</a></td>
+                              <td><a href="enteries.html"><input type="button" value="delete"></a></td>
+                            </tr>
+                            <tr>
+                              <td>07</td>
+                              <td>04/08/2018</td>
+                              <td><a href="enteries.html" value ="text">Best day ever!</a></td>
+                              <td><a href="enteries.html"><input type="button" value="delete"></a></td>
+                            </tr>
+                            <tr>
+                              <td>08</td>
+                              <td>10/08/2018</td>
+                              <td><a href="enteries.html" value ="text">Missed you Dear</a></td>
+                              <td><a href="enteries.html"><input type="button" value="delete"></a></td>
+                            </tr>
+                          </table>
+                              
+                </fieldset>
+                </div>
                 <footer>
                     <div id="enteries5">
                         <center>
